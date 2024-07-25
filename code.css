@@ -1,0 +1,151 @@
+#logo {
+  /*background-color: #BE5046;*/
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+#windows {
+  display: inline-block;
+  width: 96px;
+  fill: #4b5263;
+}
+
+#code {
+  font-size: medium;
+  margin-top: 20px;
+}
+
+#codetype {
+  font-size: x-large;
+}
+
+#my_title {
+  color: #5c6370;
+  margin-top: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  /* font-family: fangsong; */
+  text-shadow: 2px 2px 2px #000, -2px -2px 2px #23272e;
+}
+
+#weather {
+  color: #5c6370;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+  font-family: fangsong;
+  line-height: 1.5;
+  text-shadow: 2px 2px 2px #000, -2px -2px 2px #23272e;
+}
+
+#daily_speech {
+  color: #5c6370;
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  /* font-family: fangsong; */
+  text-shadow: 2px 2px 2px #000, -2px -2px 2px #23272e;
+}
+
+#detail {
+  /*background-color: aqua;*/
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: #5c6370;
+  font-weight: 500;
+}
+
+#name {
+  font-weight: 900;
+  color: #abb2bf;
+}
+
+#heart {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  fill: #be5046;
+}
+
+#color {
+  margin-top: 10px;
+  font-size: large;
+  animation: blinkShadow 2s ease-in infinite;
+}
+
+@keyframes blinkShadow {
+  0% {
+    text-shadow: 0 0 2px;
+  }
+
+  50% {
+    text-shadow: 0 0 20px;
+  }
+
+  100% {
+    text-shadow: 0 0 2px;
+  }
+}
+
+.blue {
+  color: #61afef;
+}
+
+.magenta {
+  color: #c678db;
+}
+
+.green {
+  color: #98c379;
+}
+
+.red {
+  color: #e06c75;
+}
+
+.yellow {
+  color: #e5c07b;
+}
+
+.grey {
+  color: #5c6370;
+}
+
+body {
+  font-family: "Sarasa Mono SC";
+  font-size: medium;
+  text-align: center;
+  background-color: #23272e;
+  color: #abb2bf;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  50.01% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  font-size: x-large;
+  animation: blink 1s linear infinite;
+}
